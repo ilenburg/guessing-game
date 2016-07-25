@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GuessingGame.exe" version="1.0.0.0" publicKeyToken="68d004596d1dfc16" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GuessingGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GuessingGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuessingGame.exe" size="314800">
+      <assemblyIdentity name="GuessingGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jSNzhF4JRnAEk3oraDja0bSbgMdOQSO93zeQvjzaCv8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GuessingGame.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SKYLANDER\Ian" issuerKeyHash="6a9a48d91ddc61abed2ffb769108a709e4d9c29c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eOG4EamK1MWd03600HzBpA4CygRhwyyIUzpcmPfZpA4=</DigestValue></Reference></SignedInfo><SignatureValue>Ii+1Bqxp7B7E4ArNj6HLVbNu5+gg+Kqb94tkAIceV7H+H77cIyfUF0Ij5ECfc+ld2W5im+YKk3iX2XuBRHwmg0CC6zwgjHCJdK7xpMJb9foYCPu8Z7xA+cgTLfb5p8fSbe8O0j93m8pzMJoMQBDQ4SLd4AEwwEC1w1z5fbEcnLk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jbyGHhAnQdgyw4K/BO2CnFbRZugpMfhFO+Uwe0Sr8MJFuhIyHU2RTt9ye1Xr9D6v9/BL+GDVgk4wX54RWFI8hIyr7LpGaDjokVeUM7j9OKArx/Ggg0lG7N/1hKNdRedF19FaCLaCZuoWj7J2pBCj0dMEh7WbnxpciAEHnNYXl6U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0ea4d9f7985c3a53882cc36104ca020ea4c17cd0b47ed39dc5d48aa911b8e178" Description="" Url=""><as:assemblyIdentity name="GuessingGame.exe" version="1.0.0.0" publicKeyToken="68d004596d1dfc16" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SKYLANDER\Ian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NdxDg89VF79I/aaffedLwwNnPqZvE7Z+9b7+wR7SuTQ=</DigestValue></Reference></SignedInfo><SignatureValue>RUrbS90CND/4Mmegmq0tY0bgZH3AEy1FHIkouJH/P8sNHajivD6H64jGXR7tJ2yIQ7JhyxTgQkY9A/CJp8O0a1dxO3dlWrQejqbbhx/JoUllWSL9Xd9ENSZEzrIre8uQprBLS/sS8rq0JwxdPMARftsRaFSPg7FklHmLc+6K8qE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jbyGHhAnQdgyw4K/BO2CnFbRZugpMfhFO+Uwe0Sr8MJFuhIyHU2RTt9ye1Xr9D6v9/BL+GDVgk4wX54RWFI8hIyr7LpGaDjokVeUM7j9OKArx/Ggg0lG7N/1hKNdRedF19FaCLaCZuoWj7J2pBCj0dMEh7WbnxpciAEHnNYXl6U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQE6P+e+VZp4RAfRwcf54VnTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUwBLAFkATABBAE4ARABFAFIAXABJAGEAbjAeFw0xNjA3MjUyMTM5NDhaFw0xNzA3MjYwMzM5NDhaMCUxIzAhBgNVBAMeGgBTAEsAWQBMAEEATgBEAEUAUgBcAEkAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNvIYeECdB2DLDgr8E7YKcVtFm6Ckx+EU75TB7RKvwwkW6EjIdTZFO33J7Vev0Pq/38Ev4YNWCTjBfnhFYUjyEjKvsukZoOOiRV5QzuP04oCvH8aCDSUbs3/WEo11F50XX0VoItoJm6haPsnakEKPR0wSHtZufGlyIAQec1heXpQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGEH1k6vQvuStkiTz61kwCvlCZo33anDcRO1bisDPDCiQs0ox/qi6jsQW0IR12jyw8BwkmaOLnkTnMd2ha88JGUQh2lBfnrBiSj7BDhKV42XGExxraoBZ0wARkAiq/W8HaMJlWPRXXXx04rJrY9vdImyt2FZKkkxPTy0469ax6iJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
